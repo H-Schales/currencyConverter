@@ -13,7 +13,7 @@ const TEMP_QUOTE_CURRENCY = 'GBP';
 const TEMP_BASE_PRICE = '100';
 const TEMP_QUOTE_PRICE = '79.74';
 const TEMP_LAST_CONVERTED = new Date();
-const TEMP_CONVERSION_RATE = 0.7974;
+const TEMP_CONVERSION_RATE = 0.79739;
 
 class Home extends Component {
     handleChangeText = () => {
@@ -32,17 +32,19 @@ class Home extends Component {
         console.log('handle swap currency');
     };
 
+    handleSwapCurrency = () => {
+        console.log('handle swap currency');
+    };
+
     handleOptionsPress = () => {
-        console.log('handle options press');
-    }
+        console.log('options press');
+    };
 
     render() {
         return (
             <Container>
                 <StatusBar backgroundColor="blue" barStyle="light-content" />
-                <Header
-                    onPress={this.handleOptionsPress}
-                />
+                <Header onPress={this.handleOptionsPress} />
                 <KeyboardAvoidingView behavior="padding">
                     <Logo />
                     <InputWithButton
@@ -59,9 +61,9 @@ class Home extends Component {
                         value={TEMP_QUOTE_PRICE}
                     />
                     <LastConverted
+                        date={TEMP_LAST_CONVERTED}
                         base={TEMP_BASE_CURRENCY}
                         quote={TEMP_QUOTE_CURRENCY}
-                        date={TEMP_LAST_CONVERTED}
                         conversionRate={TEMP_CONVERSION_RATE}
                     />
                     <ClearButton onPress={this.handleSwapCurrency} text="Reverse Currencies" />
