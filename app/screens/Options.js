@@ -20,13 +20,14 @@ class Options extends Component {
         console.log('press themes');
         console.log('====================================');
         this.props.navigation.navigate('Themes');
-    }
+    };
 
     handleSitePress = () => {
         console.log('====================================');
         console.log('press site');
         console.log('====================================');
-    }
+        Linking.openURL('https://fixer.io').catch(() => alert('An error occured.'));
+    };
 
 
     render() {
