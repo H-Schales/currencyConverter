@@ -11,11 +11,15 @@ const ICON_COLOR = '#868686';
 const ICON_SIZE = 23;
 
 class Options extends Component {
+    static propTypes = {
+        navigation: PropTypes.object,
+    };
 
     handleThemesPress = () => {
         console.log('====================================');
         console.log('press themes');
         console.log('====================================');
+        this.props.navigation.navigate('Themes');
     }
 
     handleSitePress = () => {
