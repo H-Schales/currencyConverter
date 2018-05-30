@@ -1,7 +1,7 @@
 import React from 'react';
 import EStyleSheet from 'react-native-extended-stylesheet';
 import Options from './screens/Options';
-import Themes from './screens/Themes';
+import Home from './screens/Home';
 
 EStyleSheet.build({
     $primaryBlue: '#4F6D7A',
@@ -19,4 +19,4 @@ EStyleSheet.build({
     //$outline: 1, --> show outline in Simulator...helps to debug the Views
 });
 
-export default () => <Themes />;
+export default () => <Home />;
