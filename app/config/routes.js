@@ -25,7 +25,8 @@ const HomeStack = StackNavigator({
             headerTitle: 'Themes',
         }
     },
-}, {
+}, {    
+        //navigation bar comes and goes with the screen
         headerMode: 'screen',
     }
 );
