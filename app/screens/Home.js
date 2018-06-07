@@ -38,10 +38,6 @@ class Home extends Component {
         console.log('handle swap currency');
     };
 
-    handleSwapCurrency = () => {
-        console.log('handle swap currency');
-    };
-
     handleOptionsPress = () => {
         console.log('options press');
         this.props.navigation.navigate('Options');
