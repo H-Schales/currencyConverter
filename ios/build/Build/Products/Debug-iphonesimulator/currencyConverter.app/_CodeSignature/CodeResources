@@ -6,35 +6,35 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		BaQUfAKllbxFpSyVWZsLwVKHd0A=
+		Gv7TfH4W8x9kUkZewGrqG8kAPTY=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
-		ooz0sIAaLKBGoFU5iKq8DR11NmY=
+		Tvuq/w6S5/l+mcuMpS91/YjZ2PU=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
 		<data>
-		R/knOPjsjrJNiVtUa2S4kYE749M=
+		6cPENvjjcXfDfBToJJ1118da8zc=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
 		<data>
-		qcVgsOCxIzxwcNXLWXgRrNjnuT8=
+		0fLvEeGLEThn4UBToFYXic4rqjA=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
 		<data>
-		K7jOt4uC+lqy/StneXlQVk21axY=
+		W8UHQlJOUHUdjrnh0RUqh9qxkzY=
 		</data>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<data>
-		CYfyvPIGUR84QvCD7SuNDvG6Bxc=
+		/6b73ybjbzwjPUHccodzeLJKGpQ=
 		</data>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<data>
-		M3EBma1BpAxt7iGIjYcrm9BnNOc=
+		3NizfJMeU0sJP08q8Qi7wX/AyvI=
 		</data>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<data>
-		5EUn1qFgVTwSkfSLCubcLwgrx0c=
+		+mvvcw5UT9t0SkNxKWk0dLOay+4=
 		</data>
 		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
 		<dict>
@@ -47,11 +47,11 @@
 		</dict>
 		<key>Frameworks/XCTest.framework/version.plist</key>
 		<data>
-		Etc/8BPenX54rv1uBx24u4bnqTg=
+		qhk6hXDyQp/YYzEpKIxg0bW3tlk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aBSdXBUTKVVrynKzuS8bSZRcu6c=
+		pGc0+7Lt2y2YM215Xe99V0A3J74=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -63,19 +63,19 @@
 		</data>
 		<key>PlugIns/currencyConverterTests.xctest.dSYM/Contents/Resources/DWARF/currencyConverterTests</key>
 		<data>
-		ZUxc/nm+qTsB1c/YTqF7Ba+aCvA=
+		WOmxZ1OCY+znLZ4xL3UJlsmDZzI=
 		</data>
 		<key>PlugIns/currencyConverterTests.xctest/Info.plist</key>
 		<data>
-		sRP2CSn6HpNYyIK8hydTR6kSFag=
+		3mXbLn/rqgy4/1G1nFNs1VQVRcs=
 		</data>
 		<key>PlugIns/currencyConverterTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		fMkyGK4CWRU5+EHE+8VI7OfLxhE=
+		SUfePgNLvmTP6t41z9bzDJX2cCM=
 		</data>
 		<key>PlugIns/currencyConverterTests.xctest/currencyConverterTests</key>
 		<data>
-		zGlehP4OSMtM9aTTfcwvNymYVko=
+		xCE9GrKOUogid7SWj24TzpKaQv0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -84,88 +84,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BaQUfAKllbxFpSyVWZsLwVKHd0A=
+			Gv7TfH4W8x9kUkZewGrqG8kAPTY=
 			</data>
 			<key>hash2</key>
 			<data>
-			eOHpQwmmXrO0CUE9sZ4WlpZT+px0DRtKITCJFyKSjvQ=
+			XkWbwWtTs+Cpr0nhwUZzkY3yFK9yHrgjNfEHsB7y+wA=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ooz0sIAaLKBGoFU5iKq8DR11NmY=
+			Tvuq/w6S5/l+mcuMpS91/YjZ2PU=
 			</data>
 			<key>hash2</key>
 			<data>
-			QTZkTlnemyTcrFMb3v3GdQcfmpRodaOjtevd5TjxiiY=
+			RFPwuGunUCg671vkap3nZ2ykF77o4s2j7zDAn2XbOco=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R/knOPjsjrJNiVtUa2S4kYE749M=
+			6cPENvjjcXfDfBToJJ1118da8zc=
 			</data>
 			<key>hash2</key>
 			<data>
-			wLDjbULmM78l0rN5jh2/yPax234qVZL29OQBQmdYmOU=
+			LLPF72z23yVBbXYfe0hb4bJQTJFSRVDBk5OyUDe3bos=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qcVgsOCxIzxwcNXLWXgRrNjnuT8=
+			0fLvEeGLEThn4UBToFYXic4rqjA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZARlo4LD/z4nYhaCEocjb6nPjuZDCrLsQzn0n4GVr3s=
+			Jru3xyO+9Pka43kPgZquwkzmdyGftteE5+HGSD6YRdY=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K7jOt4uC+lqy/StneXlQVk21axY=
+			W8UHQlJOUHUdjrnh0RUqh9qxkzY=
 			</data>
 			<key>hash2</key>
 			<data>
-			VzM0aDQjkmLy+IyPasdn9DeGkOOTuNMbKUMz+3efAaU=
+			FPdP4nFPVQpcTGvPqKiPySck4vZwcjNstcWB9HweZYA=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CYfyvPIGUR84QvCD7SuNDvG6Bxc=
+			/6b73ybjbzwjPUHccodzeLJKGpQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xsgm2dBly62EneiB04ryti89smi53XIXAOtYLFyW4ZE=
+			1uGNx3Hih75LqpmMmnSTa4Vvqk69BmdnsWtAABkb2Ow=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M3EBma1BpAxt7iGIjYcrm9BnNOc=
+			3NizfJMeU0sJP08q8Qi7wX/AyvI=
 			</data>
 			<key>hash2</key>
 			<data>
-			qAlGOWS6ltLA/WrYd4Rz6EHPivttCiNu41NTW7ulBAI=
+			XSjXtfthzzaopwW6oSnMLrhafOkn9KkU9ZbZ/aIqCok=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5EUn1qFgVTwSkfSLCubcLwgrx0c=
+			+mvvcw5UT9t0SkNxKWk0dLOay+4=
 			</data>
 			<key>hash2</key>
 			<data>
-			55ZdMLgNGz7Q67XNAv/M4f4uXy0R2d5+tlHRhlkL8t4=
+			LOX9OCUqqITwfF5IEPUIrj9+m8hK39QCJl4WbXY272o=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
@@ -185,11 +185,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Etc/8BPenX54rv1uBx24u4bnqTg=
+			qhk6hXDyQp/YYzEpKIxg0bW3tlk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jh5i9giCFfo5GhN25CjMKdDJ6Kdlz/p4L95RITR+WeA=
+			L4ikvo5qrwsx21+syxZrwgRwrNbc3av4ZtEyZl/yF78=
 			</data>
 		</dict>
 		<key>PlugIns/currencyConverterTests.xctest.dSYM/Contents/Info.plist</key>
@@ -207,44 +207,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZUxc/nm+qTsB1c/YTqF7Ba+aCvA=
+			WOmxZ1OCY+znLZ4xL3UJlsmDZzI=
 			</data>
 			<key>hash2</key>
 			<data>
-			cqXusB4iiuYu5DaLcitbIkoeG1STK6S3IFql7MxL/cM=
+			xdD0Sq846LDV8PuvnTtAMWd7K8GulAWKQObCO+reGFM=
 			</data>
 		</dict>
 		<key>PlugIns/currencyConverterTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sRP2CSn6HpNYyIK8hydTR6kSFag=
+			3mXbLn/rqgy4/1G1nFNs1VQVRcs=
 			</data>
 			<key>hash2</key>
 			<data>
-			NxMq9q1fJ44KeChSSDKa3z7sCQUziNmEkA4QaOvJ2po=
+			uHxFDd2D038eqwwcc/JRTqLTOZtkZlpGtD8K+3yWSh4=
 			</data>
 		</dict>
 		<key>PlugIns/currencyConverterTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fMkyGK4CWRU5+EHE+8VI7OfLxhE=
+			SUfePgNLvmTP6t41z9bzDJX2cCM=
 			</data>
 			<key>hash2</key>
 			<data>
-			2jC6zgOCBFvOQXL9oTFGDsfxYFfD931QWBYwja2lPMc=
+			sAk0odzHpwuruW4po4dkInzET3Vkpaz0lRtqm6Gj0kM=
 			</data>
 		</dict>
 		<key>PlugIns/currencyConverterTests.xctest/currencyConverterTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zGlehP4OSMtM9aTTfcwvNymYVko=
+			xCE9GrKOUogid7SWj24TzpKaQv0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jj6re59AF5OZUviJoBZNyHWOd6bQzfwVvXunTl6sqtg=
+			5CjAECh6yOIhodePUNUFmwFOfP+380nM5SJ3+Ss2bjU=
 			</data>
 		</dict>
 	</dict>
