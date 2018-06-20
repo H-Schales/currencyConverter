@@ -1,8 +1,10 @@
 import React from "react";
 import EStyleSheet from "react-native-extended-stylesheet";
-import Options from "./screens/Options";
+import { Provider } from "react-redux";
+
 import Navigator from "./config/routes";
-import { AlertProvider } from "./components/Alert/";
+import { AlertProvider } from "./components/Alert";
+import store from "./config/store";
 
 EStyleSheet.build({
   $primaryBlue: "#4F6D7A",
@@ -10,17 +12,19 @@ EStyleSheet.build({
   $primaryGreen: "#00BD9D",
   $primaryPurple: "#9E768F",
 
-  $white: "#fff",
+  $white: "#FFFFFF",
+  $lightGray: "#F0F0F0",
   $border: "#E2E2E2",
   $inputText: "#797979",
-  $lightGray: "#F0F0F0",
   $darkText: "#343434"
 
   //$outline: 1, --> show outline in Simulator...helps to debug the Views
 });
 
 export default () => (
-  <AlertProvider>
-    <Navigator />
-  </AlertProvider>
+  <Provider store={store}>
+    <AlertProvider>
+      <Navigator onNavigationStateChange={null} />
+    </AlertProvider>
+  </Provider>
 );
