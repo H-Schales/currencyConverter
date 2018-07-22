@@ -20,8 +20,9 @@ class Home extends Component {
     quoteCurrency: PropTypes.string,
     amount: PropTypes.number,
     conversionRate: PropTypes.number,
+    lastConvertedDate: PropTypes.object,
     isFetching: PropTypes.bool,
-    lastConvertedDate: PropTypes.object
+    primaryColor: PropTypes.string
   };
 
   handleChangeText = text => {
@@ -51,28 +52,31 @@ class Home extends Component {
   };
 
   render() {
-    let quotePrice = (this.props.amount * this.props.conversionRate).toFixed(2); //last two decimal points
-    if (this.props.isFetching) {
-      quotePrice = "...";
+    let quotePrice = "...";
+    if (!this.props.isFetching) {
+      quotePrice = (this.props.amount * this.props.conversionRate).toFixed(2);
     }
+
     return (
-      <Container>
+      <Container backgroundColor={this.props.primaryColor}>
         <StatusBar backgroundColor="blue" barStyle="light-content" />
         <Header onPress={this.handleOptionsPress} />
         <KeyboardAvoidingView behavior="padding">
-          <Logo />
+          <Logo tintColor={this.props.primaryColor} />
           <InputWithButton
             buttonText={this.props.baseCurrency}
             onPress={this.handlePressBaseCurrency}
-            defaultValue={this.props.amount.toString()} //because i can only pass strings to input
+            defaultValue={this.props.amount.toString()}
             keyboardType="numeric"
             onChangeText={this.handleChangeText}
+            textColor={this.props.primaryColor}
           />
           <InputWithButton
             editable={false}
             buttonText={this.props.quoteCurrency}
             onPress={this.handlePressQuoteCurrency}
             value={quotePrice}
+            textColor={this.props.primaryColor}
           />
           <LastConverted
             date={this.props.lastConvertedDate}
@@ -90,7 +94,6 @@ class Home extends Component {
   }
 }
 
-//taking the redux state and mapping it to the components props
 const mapStateToProps = state => {
   const baseCurrency = state.currencies.baseCurrency;
   const quoteCurrency = state.currencies.quoteCurrency;
@@ -102,10 +105,11 @@ const mapStateToProps = state => {
     quoteCurrency,
     amount: state.currencies.amount,
     conversionRate: rates[quoteCurrency] || 0,
-    isFetching: conversionSelector.isFetching,
     lastConvertedDate: conversionSelector.date
       ? new Date(conversionSelector.date)
-      : new Date()
+      : new Date(),
+    isFetching: conversionSelector.isFetching,
+    primaryColor: state.theme.primaryColor
   };
 };
 
